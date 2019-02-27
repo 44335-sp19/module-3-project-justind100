@@ -2,12 +2,18 @@
    which helps protect the scope of variables */
 
 //PART ONE: GENERATE A RANDOM ROOM RATE. Write a function called genRand() that has no paremeters that will return a room rate between 100 and 400. HINT: You should hit a number within this range within 10 tries.
-  
-
-
+  function genRand()
+{
+    roommate.getRandomValues(100,400);
+}
 
 
   // PART TWO: CALCULATE AND RETURN THE EXPIRY DETAILS FOR THE OFFER. Write a function called offerExpires that has one parameter a Date object. The function should return a string in the format "OFFER EXPIRES NEXT "WeekDay" (Date Month Year)". The date should be one week from today's date
+    newDate
+    function.offerExpires(NewDate);
+{
+    document.write("OFFER EXPIRES NEXT "WeekDay" ")
+}
 
   
 //PART THREE: CALL THE FUNCTIONS AND WRITE INFO TO WEBPAGE
